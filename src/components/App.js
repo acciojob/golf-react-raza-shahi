@@ -6,8 +6,8 @@ class App extends Component {
         super(props)
         this.state = {
             renderBall: false,
-            posi : 0,
-            ballPosition: { left: "" }
+            posi : 5,
+            ballPosition: { left: "5px" }
         };
         this.renderChoice = this.renderBallOrButton.bind(this)
         this.buttonClickHandler = this.buttonClickHandler.bind(this)
